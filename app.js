@@ -25,7 +25,7 @@ app.get('/node', (req, res) => {
     res.send([explorer, explorer1, explorer2, explorer3]);
 })
 
-// Solicitando parametros por medio de la URL (query pattern)
+// Solicitando parametros por medio de la URL (query params)
 // cuando se ingresa localhost/explorers/gabriel me arrojara los parametros que se agregaron
 app.get('/explorers/:explorer', (req, res) => {
     // respuesta que se tendra
