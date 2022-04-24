@@ -33,7 +33,7 @@ app.get('/explorers/:explorer', (req, res) => {
     res.send(req.params);
 })
 
-// inicialiacion de la app
+// inicialiacion de la app de servidor
 app.listen(port, () => {
     console.log("explorer");
 })
